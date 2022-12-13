@@ -104,22 +104,6 @@ class SudokuReaderTest {
 		assertTrue(sr.solve(), "Wrong result from solve");
 	}
 
-//	@Test
-//	void testNoSolboard() {
-//		sr.setCell(0, 0, 5);
-//		sr.setCell(0, 5, 5);
-//		assertFalse(sr.sr(), "fel");
-//		sr.clear();
-//
-//		sr.setCell(0, 0, 5);
-//		sr.setCell(0, 7, 5);
-//		assertFalse(sr.sr(), "fel");
-//		sr.clear();
-//
-//		sr.setCell(0, 0, 5);
-//		sr.setCell(2, 2, 5);
-//		assertFalse(sr.sr(), "fel");
-//
-//	}
+
 
 }
